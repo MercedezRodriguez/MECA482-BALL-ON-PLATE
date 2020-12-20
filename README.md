@@ -24,10 +24,10 @@ Now we take th LaPlace transform of both Eq. 1 and Eq. 2:
 
 
 
-With **small angle aproximation** Eq.  was linearized with the assumption that **sin(theta)max=thetam,x**:
+With **small angle aproximation** Eq3.  was linearized with the assumption that **sin(theta)max=thetam,x**:
 
 
-![Alt Text](https://user-images.githubusercontent.com/75716205/102708241-65f35a80-4256-11eb-8e8b-797b9aeff15e.png)
+![Alt Text](https://user-images.githubusercontent.com/75716205/102708237-5411b780-4256-11eb-8052-bbe4c2386c3f.png)
 
 
 
