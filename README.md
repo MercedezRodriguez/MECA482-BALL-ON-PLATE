@@ -13,6 +13,10 @@ Group: Maria Rodriguez, Anthony McKinney, Catherine Crichton, David Nguiffo, Aid
 
 The angle of the servo-motor ( thetamax) and the angle of the plate (Phi x) and through the following equations can be related: 
 ![Alt Text](https://user-images.githubusercontent.com/75716205/102708206-1ca30b00-4256-11eb-8ff4-88eaf7a5370f.png)
+Now we take th LaPlace transform of both Eq. 1 and Eq. 2:
+
+![Alt Text](https://user-images.githubusercontent.com/75716205/102708237-5411b780-4256-11eb-8052-bbe4c2386c3f.png)
+
 
 
 
