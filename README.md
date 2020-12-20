@@ -49,6 +49,20 @@
 
 
 
+###### From the equations above we obtained a Settling time and naatral frequency of:
+
+![Alt Text](https://user-images.githubusercontent.com/75716205/102709371-ed44cc00-425e-11eb-9cf0-27d8d65ff037.png)
+
+###### We used **Root Locus** to design our controller, we used **Matlab** to show us the roots and poles of our transfer function. 
+
+
+
+
+
+
+
+
+
 
 
 
