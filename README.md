@@ -1,4 +1,3 @@
-#f5f0ff,$bg-purple-light
 # MECA482 BALL ON PLATE
 Group: Maria Rodriguez, Anthony McKinney, Catherine Crichton, David Nguiffo, Aiden Williams
 
@@ -12,6 +11,7 @@ Group: Maria Rodriguez, Anthony McKinney, Catherine Crichton, David Nguiffo, Aid
 ###### The system was modeled with the assumption that the kinetic energy of he plate is negligible and that the servo-motors controlling motion in the x-z and y-z planes are uncoupled. Throught he force balanced Equation in the direction normal to the plate, a governing equation was derived below. (Equation 1.)
 ![Alt Text](https://user-images.githubusercontent.com/75716205/102708141-9090e380-4255-11eb-8bba-21f7c3c5faf1.png)
 The angle of the servo-motor ( thetamax) and the angle of the plate (Phi x) and through the following equations can be related: 
+
 
 
  
