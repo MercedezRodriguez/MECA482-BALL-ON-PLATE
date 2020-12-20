@@ -35,7 +35,11 @@ Now with Eq. 4, our **Transfer Function** can be found:
 
 
 
-![Alt Text]
+![Alt Text](https://user-images.githubusercontent.com/75716205/102708250-77d4fd80-4256-11eb-8e24-d4c33654f7e8.png)
+
+
+
+
 
 
 
