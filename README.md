@@ -65,6 +65,16 @@
 
 
 
+![Alt Text](https://user-images.githubusercontent.com/75716205/102710303-495f1e80-4266-11eb-80d2-cb2d5615d97d.png)
+
+
+
+
+###### This is a **closed loop system**, therfore locating the poles and zeros is essential.The gain helped provide power, and is the relationship between;
+###### -the magnitude of input
+###### -magnitude of the output when the system is at a steady state.
+###### The poles and zeros refer to the frequency of the TF. They are used to determine whether or not the system is stable. 
+###### The zeros are calculated by setting the numerator to zero and solving for the s-variable. And the poles are calculated the same way except are in the denominator of the transfer function
 
 
 
