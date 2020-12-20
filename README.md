@@ -31,6 +31,7 @@
 
 
 
+
 ###### Now with Eq. 4, our **Transfer Function** can be found: 
 
 
@@ -42,7 +43,10 @@
 ###### Our design was created with the criteria of 
 ###### - 3 seconds settling time
 ###### - 5% Overshoot
-###### The root locus control method was implemented to control the ball-on-plate system. The Root Locus method was selected due to its ease of implementation and its ability to predict the performance of the entire system. Using the 
+###### The root locus control method was implemented to control the ball-on-plate system. The Root Locus method was selected due to its ease of implementation and its ability to predict the performance of the entire system. Using the equations for Settling Time(Eq. 6) and Percent Overshoot (Eq. 7)
+
+![Alt Text](https://user-images.githubusercontent.com/75716205/102709193-eddc6300-425c-11eb-8a0c-d714d8978f9d.png)
+
 
 
 
