@@ -53,7 +53,13 @@
 
 ![Alt Text](https://user-images.githubusercontent.com/75716205/102709371-ed44cc00-425e-11eb-9cf0-27d8d65ff037.png)
 
-###### We used **Root Locus** to design our controller, we used **Matlab** to show us the roots and poles of our transfer function. 
+###### We used **Root Locus** to design our controller, we used **Matlab** to show us the roots and poles of our transfer function. Below is the sgrid function + rlocus function 
+
+![Alt Text](https://user-images.githubusercontent.com/75716205/102709492-0306c100-4260-11eb-9d7f-77d91a802dd3.png)
+
+
+###### Note the green and blue lines fall on the imaginaryaxis but no inside the area of interest. To correct this, a ** Lead/Lag** compensator was introduced. To give s the resuts below: 
+
 
 
 
