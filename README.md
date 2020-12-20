@@ -38,7 +38,7 @@
 
 ![Alt Text](https://user-images.githubusercontent.com/75716205/102708250-77d4fd80-4256-11eb-8e24-d4c33654f7e8.png)
 
-## 4. Contoller Desig and Simulations
+## 4. Contoller Design and Simulations
 ## 4a. Controller
 ###### Our design was created with the criteria of 
 ###### - 3 seconds settling time
@@ -46,6 +46,8 @@
 ###### The root locus control method was implemented to control the ball-on-plate system. The Root Locus method was selected due to its ease of implementation and its ability to predict the performance of the entire system. Using the equations for Settling Time(Eq. 6) and Percent Overshoot (Eq. 7)
 
 ![Alt Text](https://user-images.githubusercontent.com/75716205/102709193-eddc6300-425c-11eb-8a0c-d714d8978f9d.png)
+
+
 
 
 
