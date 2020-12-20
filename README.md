@@ -60,6 +60,12 @@
 
 ###### Note the green and blue lines fall on the imaginaryaxis but no inside the area of interest. To correct this, a ** Lead/Lag** compensator was introduced. To give s the resuts below: 
 
+![Alt Text](https://user-images.githubusercontent.com/75716205/102709692-8674e200-4261-11eb-947a-1d3166693541.png)
+
+
+
+
+
 
 
 
