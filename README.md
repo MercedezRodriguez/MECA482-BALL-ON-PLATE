@@ -77,6 +77,9 @@
 ###### The zeros are calculated by setting the numerator to zero and solving for the s-variable. And the poles are calculated the same way except are in the denominator of the transfer function
 
 
+![Alt Text](https://user-images.githubusercontent.com/75716205/102710560-ee2e2b80-4267-11eb-92dd-8854d94f0cd3.png)
+
+
 
 
 
