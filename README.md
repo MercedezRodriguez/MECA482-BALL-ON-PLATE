@@ -84,7 +84,7 @@
 
 
 ## 4b. Simulink
-###### Simulink is used to create a mathematical model of the ball is utilized to test the lead compensator. Below is our Simulink Block Diagram. The Simulink model's purpose is to take the current position of the ball and give an output of the expected position of the ball 
+###### Simulink is used to create a mathematical model of the ball is utilized to test the lead compensator. Below is our Simulink Block Diagram. The Simulink model's purpose is to take the current position of the ball and give an output of the expected position of the ball. 
 
 
 
@@ -98,7 +98,10 @@
 
 
 ## 4c. Coppelia and Matlab
-###### Coppelia is used to create simulaions via Simulin Models . Below is our code used in Coppelia , which is how Matlab gets the coordiates of where the ball is located on the plate. Below are figures of how Coppelia and Matlab communicate. 
+###### Coppelia is used to create simulaions via Simulin Models . Below is our code used in Coppelia , which is how Matlab gets the coordiates of where the ball is located on the plate. Below are figures of how Coppelia and Matlab communicate as well as our Joint Test Code.
+
+![Alt Test](https://user-images.githubusercontent.com/75716205/102741758-0f465900-4308-11eb-933a-1315435ad527.png)
+
 
 
 
