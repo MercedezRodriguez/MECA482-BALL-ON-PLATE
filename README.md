@@ -5,7 +5,7 @@
 
 
 ## 1. INTRODUCTION
-###### Our Ball On PLate system consists of plate, touch screen and servo motor. The Touch screen is placed over the plate and our goal is to balance a freely rolling ball in a specific position OR to move it in a trajectory on the plate with the least possible error and smallest settling time achieved for the dynamics of the real time system.  A linear mathematical model of the system is derived to find the relationship between input and output and MATLAB is used to evaluate the closed loop system response and determine the PID parameters. 
+###### Our Ball On Plate system consists of plate, touch screen and servo motor. The Touch screen is placed over the plate and our goal is to balance a freely rolling ball in a specific position OR to move it in a trajectory on the plate with the least possible error and smallest settling time achieved for the dynamics of the real time system.  A linear mathematical model of the system is derived to find the relationship between input and output and MATLAB is used to evaluate the closed loop system response and determine the PID parameters. 
 ## 2. MODELING
 ##### Our Ball and Plate system is shown below labeled Figure 1.
 ![Alt Text](https://user-images.githubusercontent.com/75716205/102710637-84625180-4268-11eb-9796-e548042e480f.png)
@@ -108,7 +108,8 @@
 ![Alt Text](https://user-images.githubusercontent.com/75716205/102742538-fc348880-4309-11eb-87c4-1029f11d5937.png)
 ![Alt Text](https://user-images.githubusercontent.com/75716205/102742589-1a9a8400-430a-11eb-86ab-77dd726bf1e9.png)
 
-
+## Simulation
+https://github.com/MercedezRodriguez/MECA482-BALL-ON-PLATE/issues/21#issue-771876357
 
 ###### Below is the Final Report 
 https://github.com/MercedezRodriguez/MECA482-BALL-ON-PLATE/issues/20#issue-771862013
