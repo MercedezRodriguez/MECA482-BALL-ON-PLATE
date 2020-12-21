@@ -51,7 +51,7 @@
 
 
 
-###### From the equations above we obtained a Settling time and naatral frequency of:
+###### From the equations above we obtained a Settling time and natural frequency of:
 
 ![Alt Text](https://user-images.githubusercontent.com/75716205/102709371-ed44cc00-425e-11eb-9cf0-27d8d65ff037.png)
 
@@ -60,7 +60,7 @@
 ![Alt Text](https://user-images.githubusercontent.com/75716205/102709492-0306c100-4260-11eb-9d7f-77d91a802dd3.png)
 
 
-###### Note the green and blue lines fall on the imaginaryaxis but no inside the area of interest. To correct this, a ** Lead/Lag** compensator was introduced. To give s the resuts below: 
+###### Note the green and blue lines fall on the imaginary axis but not inside the area of interest. To correct this, a ** Lead/Lag** compensator was introduced. To give s the resuts below: 
 
 ![Alt Text](https://user-images.githubusercontent.com/75716205/102709692-8674e200-4261-11eb-947a-1d3166693541.png)
 
@@ -72,7 +72,7 @@
 
 
 
-###### This is a **closed loop system**, therfore locating the poles and zeros is essential.The gain helped provide power, and is the relationship between;
+###### This is a **closed loop system**, therfore locating the poles and zeros is essential.The gain helped provide power, and is the relationship between:
 ###### -the magnitude of input
 ###### -magnitude of the output when the system is at a steady state.
 ###### The poles and zeros refer to the frequency of the TF. They are used to determine whether or not the system is stable. 
