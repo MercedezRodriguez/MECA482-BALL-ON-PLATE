@@ -101,6 +101,7 @@
 ###### Coppelia is used to create simulaions via Simulin Models . Below is our code used in Coppelia , which is how Matlab gets the coordiates of where the ball is located on the plate. Below are figures of how Coppelia and Matlab communicate as well as our Joint Test Code.
 
 ![Alt Test](https://user-images.githubusercontent.com/75716205/102741758-0f465900-4308-11eb-933a-1315435ad527.png)
+![Alt Text](https://user-images.githubusercontent.com/75716205/102742096-f0949200-4308-11eb-982f-379485984fb1.png)
 
 
 
