@@ -113,7 +113,7 @@ https://github.com/MercedezRodriguez/MECA482-BALL-ON-PLATE/issues/21#issue-77187
 ## Summary
 ###### Our system still requires several adjustments,but our servo motors  are working correctly as expected. 
 ###### Below is the Final Report 
-https://github.com/MercedezRodriguez/MECA482-BALL-ON-PLATE/issues/20#issue-771862013
+https://github.com/MercedezRodriguez/MECA482-BALL-ON-PLATE/issues/23#issue-771903116
 
 
 
