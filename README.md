@@ -86,7 +86,7 @@
 ## 4b. Simulink
 ###### Simulink is used to create a mathematical model of the ball is utilized to test the lead compensator. Below is our Simulink Block Diagram. The Simulink model's purpose is to take the current position of the ball and give an output of the expected position of the ball. 
 
-
+![Alt Text](https://user-images.githubusercontent.com/75716205/102742938-1458d780-430b-11eb-9638-ffd6b13ee43b.png)
 
 
 
