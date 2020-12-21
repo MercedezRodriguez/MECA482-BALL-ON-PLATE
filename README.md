@@ -6,7 +6,7 @@
 
 ## 1. INTRODUCTION
 ###### The**Ball on Plate** project is a system that consists of a ball balanced on a sensored plate. The plate tilts according to the position of the ball. Two servo-motors with linkage arms attached to the plate control its tilt angle as can be seen in Fig. 1. The two servo-motors are uncoupled, meaning that one servo-motor controls motion in the x-z-plane while another controls motion in the y-z-plane. Coppelia Sim, connected to MatLab and Simulink, will simulate the mathematical model of the entire system. The control algorithm tests the system to ensure that it meets the requirements. The system’s basic patterns must be able to conduct are to move a ball in a square at the four corner points of the plate, move the ball in a triangle, and move the ball in a circle. It must also stabilize itself and bring the ball back to the center origin of the plate when it is knocked off balance 
-
+https://github.com/MercedezRodriguez/MECA482-BALL-ON-PLATE/issues/21#issue-771876357
 ## 2. MODELING
 ##### Our Ball and Plate system is shown below labeled Figure 1.
 ![Alt Text](https://user-images.githubusercontent.com/75716205/102710637-84625180-4268-11eb-9796-e548042e480f.png)
@@ -43,6 +43,10 @@
 
 ## 4. Contoller Design and Simulations
 ## 4a. Controller
+###### The root locus control method was implemented to control the ball-on-plate system. The
+###### Root Locus method was selected due to its ease of implementation and its ability to predict the
+###### performance of the entire system.The initial assumptions for the system were that it needed to have a settling time less than or equal to three seconds and less than a 5% overshoot. Using the settling time equation (Eq. 7) and the percent overshoot equation (Eq. 8) the values for the damping ratio and natural frequency of the system were found to be ζ = 0.7 and ωn = 1.9 Hz.
+
 ###### Our design was created with the criteria of 
 ###### - 3 seconds settling time
 ###### - 5% Overshoot
@@ -51,6 +55,7 @@
 ![Alt Text](https://user-images.githubusercontent.com/75716205/102709193-eddc6300-425c-11eb-8a0c-d714d8978f9d.png)
 
 
+##### The pole locations with acceptable percent overshoot and settling time can be visualized in the figure below. Poles, where the percent overshoot is less than 5%, are located in the area between the 0.7 lines. Poles with a settling time less than 3 seconds are located in the area inside of the curved line. The green and blue lines fall on the imaginary axis but not inside any of the areas of interest. The root locus can be adjusted into an area of stability by utilizing either a lead or lag compensator. A lead compensator would increase the stability and speed of response while a lag compensator would reduce the amount of error in a system. Stability and response time are important factors in the ball-on-plate model so a lead compensator was selected for this project.
 
 ###### From the equations above we obtained a Settling time and natural frequency of:
 
@@ -65,19 +70,15 @@
 
 ![Alt Text](https://user-images.githubusercontent.com/75716205/102709692-8674e200-4261-11eb-947a-1d3166693541.png)
 
-
+###### Using an iterative process to determine values, placing a zero of 0.01 and a pole of 5 into the lead compensator yielded the results in Fig. 5. The lead compensator function is:
 
 
 ![Alt Text](https://user-images.githubusercontent.com/75716205/102710303-495f1e80-4266-11eb-80d2-cb2d5615d97d.png)
 
+###### Where the magnitude of z0 (0.01) is less than p0 (5). A gain value, K, was determined fromEq. 9 for the system for use in Simulink.
+###### The control system is a closed-loop, meaning it is critical to identify the poles and zeros. The root locus focuses on how the roots of the system change with a variation of its parameters. The root locus is incorporated with the feedback system on the s-plane. Fig. 6 was generated in MatLab and calculated the gain, poles, damping, percent overshoot, and frequency. The selected point, gain, and resulting poles can be seen in Fig. 7. The gain is the relationship between the magnitude of input and the magnitude of the output when the system is at a steady state. The poles and zeros refer to the transfer function frequency and are used to determine whether or not the system is stable. The damping ratio refers to how much the system oscillates. A damping ratio of 0.967 means that the system absorbs 96.7% of the frequency due to vibration and shock energy. The percent overshoot is in reference to how much the output exceeds its final steady-state value. It is best to have a low percent overshoot value to prevent errors in the system’s data or performance.
 
 
-
-###### This is a **closed loop system**, therfore locating the poles and zeros is essential.The gain helped provide power, and is the relationship between:
-###### -the magnitude of input
-###### -magnitude of the output when the system is at a steady state.
-###### The poles and zeros refer to the frequency of the TF. They are used to determine whether or not the system is stable. 
-###### The zeros are calculated by setting the numerator to zero and solving for the s-variable. And the poles are calculated the same way except are in the denominator of the transfer function
 
 
 ![Alt Text](https://user-images.githubusercontent.com/75716205/102710560-ee2e2b80-4267-11eb-92dd-8854d94f0cd3.png)
